@@ -1,0 +1,57 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    margin-top: 100px;
+
+  }
+.formulario{
+    width: 500px
+}
+.logo{
+    padding: 50px;
+}
+    
+.input-container {
+    display: flex;
+    width:100%;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    padding: 10px;
+    background: #c40383;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  
+  .input-field:focus {
+    border: 2px solid #c40383
+  }
+  
+  .btn {
+    background-color: #c40383;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  
